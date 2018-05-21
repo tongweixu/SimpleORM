@@ -22,16 +22,7 @@ import com.szu.SimpleORM.utils.ReflectUtils;
  */
 @SuppressWarnings("all")
 public class MySqlQuery implements Query {
-	
 
-	
-
-	
-	
-	public static void main(String[] args) {
-		Number obj = new MySqlQuery().queryNumber("select count(*) from emp where salary>?",new Object[]{1000});
-		System.out.println(obj.doubleValue());
-	}
 	
 	@Override
 	public void delete(Class clazz, Object id) {

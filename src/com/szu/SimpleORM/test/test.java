@@ -20,7 +20,7 @@ public class test {
 		e.setBirthday(new java.sql.Date(System.currentTimeMillis()));
 		e.setAge(30);
 		e.setSalary(3000.8);
-		e.setId(2l);
+		e.setId(9l);
 		e.setBonus(1231.2);
 		e.setDeptId(12);
 		query.delete(e);
@@ -34,7 +34,7 @@ public class test {
 		e.setBirthday(new java.sql.Date(System.currentTimeMillis()));
 		e.setAge(30);
 		e.setSalary(3000.8);
-		e.setId(4l);
+		e.setId(9l);
 		e.setBonus(1231.2);
 		e.setDeptId(12);
 		query.insert(e);
